@@ -67,6 +67,20 @@
                 "tt02"
             ]
         },
+
+        "dmf": {
+            "name": {
+                "en": "The Directorate of Mining",
+                "nb": "Direktoratet for mineralforvaltning",
+                "nn": "Direktoratet for mineralforvaltning"
+            },
+            "logo": "https://altinncdn.no/orgs/dmf/dmf.png",
+            "orgnr": "974760282",
+            "homepage": "https://dirmin.no/",
+            "environments": [
+                "tt02"
+            ]
+        },
         "gk": {
             "name": {
                 "en": "The Criminal Cases Review Commission",
@@ -90,8 +104,7 @@
             "orgnr": "983544622",
             "homepage": "https://www.helsedirektoratet.no",
             "environments": [
-                "tt02",
-                "production"
+                "tt02"
             ]
         },
         "hmrhf": {
@@ -171,8 +184,7 @@
             "orgnr": "985165262",
             "homepage": "https://www.nsm.no",
             "environments": [
-                "tt02",
-                "production"
+                "tt02"
             ]
         },
         "skd": {
@@ -185,7 +197,8 @@
             "orgnr": "974761076",
             "homepage": "https://www.skatteetaten.no",
             "environments": [
-                "tt02"
+                "tt02",
+                "production"
             ]
         },
         "ssb": {

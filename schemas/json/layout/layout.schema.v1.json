@@ -62,7 +62,7 @@
           "additionalProperties": {
             "type": "string"
           },
-          "examples": [{"title": "some.text.binding", "helpText": "some.other.text.binding" }]
+          "examples": [{"title": "some.text.binding", "help": "some.other.text.binding" }]
         },
         "dataModelBindings": {
           "type": "object",
@@ -74,13 +74,7 @@
           "examples": [{"simpleBinding": "some.data.binding"}]
         },
         "triggers": {
-          "title": "Triggers",
-          "description": "An array of actions that should be triggered when data connected to this component changes.",
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": ["validation", "validatePage", "validateAllPages"]
-          }
+          "$ref": "#/definitions/triggers"
         },
         "labelSettings": {
           "type": "object",
@@ -267,6 +261,15 @@
         }
       },
       "required": ["label", "value"]
+    },
+    "triggers": {
+      "title": "Triggers",
+      "description": "An array of actions that should be triggered when data connected to this component changes.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["validation", "validatePage", "validateAllPages", "calculatePageOrder"]
+      }
     },
     "selectionComponents": {
       "properties": {
